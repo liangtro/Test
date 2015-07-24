@@ -1,2 +1,4 @@
 #!/bin/bash
-grep -c "^>" $1
+grep -c "^>" $@
+
+echo "Done"
